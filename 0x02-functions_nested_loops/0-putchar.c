@@ -1,24 +1,21 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main - prints _putchar
+ * main - program that prints Holberton.
  *
- * Description: prints _putchar
- *
- * Return: 0 (Success)
+ * Return: int
  */
 
 int main(void)
 {
-	char text[9] = "_putchar";
-	int i = 0;
-	
-	for (i = 0; i < 8; i++)
+	int n = 0;
+	char str_hbt[9] = "Holberton";
+
+	while (n < 9)
 	{
-		_putchar(text[i]);
+		_putchar(str_hbt[n]);
+		n += 1;
 	}
 	_putchar('\n');
-
 	return (0);
 }
-
