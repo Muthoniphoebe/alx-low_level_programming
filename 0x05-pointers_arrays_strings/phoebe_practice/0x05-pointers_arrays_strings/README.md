@@ -1,1 +1,0 @@
-Pointes, arrays and strings
