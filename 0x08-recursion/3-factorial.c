@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * factorial - factorial n
- * @n: integer arams
- * Return: recursion
+ * factorial - returns the factorial of a given number.
+ * @n: The number to find factorial of
+ *
+ * Return: if n > 0 - the factorial of n.
+ *         if n < 0 - 1 to indicate an error.
  */
 
 int factorial(int n)
@@ -12,7 +14,7 @@ int factorial(int n)
 	{
 		return (-1);
 	}
-	if (n == 1)
+	if (n == 0)
 	{
 		return (1);
 	}
