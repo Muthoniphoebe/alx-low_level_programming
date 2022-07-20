@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - size
- * @s: pointer to string params
- * Return: recursion
+ * _strlen_recursion - returns the length of a string
+ * @s: The string to be measured.
+ *
+ * Return: length of the string.
  */
 
 int _strlen_recursion(char *s)
@@ -16,10 +17,11 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * p1 - palindrome
- * @s: pointer to string
- * @l: position
- * Return: boolena
+ * p1 - checks if a string is a palindrome
+ * @s: The string to be checked.
+ * @l: The length of s.
+ *
+ * Return: 1 if is, 0 if not.
  */
 
 int p1(char *s, int l)
@@ -37,9 +39,10 @@ int p1(char *s, int l)
 }
 
 /**
- * is_palindrome - palindrome
- * @s: pointer to string
- * Return: recursion
+ * is_palindrome - Checks if a string is a palindrome
+ * @s: The string to be checked.
+ *
+ * Return: -1 if it is, 0 if not
  */
 
 int is_palindrome(char *s)

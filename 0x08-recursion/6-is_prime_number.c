@@ -4,9 +4,10 @@ int tmp_prime(int n, int i);
 
 /**
  * divisors - number is prime?
- * @n: integer params
- * @m: integer params
- * Return: boolean
+ * @n: number to evaluate
+ * @m: itertor
+ *
+ * Return: 1 if prime number, 0 if not
  */
 
 int divisors(int n, int m)
@@ -26,9 +27,11 @@ int divisors(int n, int m)
 }
 
 /**
- * is_prime_number - prime
- * @n: integer params
- * Return: recursion
+ * is_prime_number - checks if the number is prime.
+ * @n: number to checked.
+ *
+ * Return: if int is not prime 0.
+ *         if number is prime 1.
  */
 
 int is_prime_number(int n)
